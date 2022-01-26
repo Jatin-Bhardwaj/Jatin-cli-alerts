@@ -1,7 +1,31 @@
 {
-    "name":"jatin-cli-alerts",
-    "version":"0.0.1",
-    "description": "Cross platform CLI ALerts with colors and colored symbols for success, info, warning, error.Works on macOS, Linux, Windows",
-    "license": "MIT",
-
+	"name": "jatin-cli-alerts",
+	"version": "0.0.1",
+	"description": "Cross platform CLI ALerts with colors and colored symbols for success, info, warning, error.Works on macOS, Linux, Windows",
+	"license": "MIT",
+	"repository": "Jatin-Bhardwaj/Jatin-cli-alerts",
+	"author": {
+		"name": "Jatin Bhardwaj",
+		"email": "kaijatin1@gmail.com"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"cli-alerts",
+		"Jatin Bhardwaj",
+		"jatin"
+	],
+	"devDependencies": {
+		"prettier": "^2.5.1"
+	},
+	"dependencies": {
+        "chalk": "^2.4.1",
+		"log-symbols": "^3.0.0"
+	},
+    "scripts": {
+        "test": "node test.js",
+        "format": "prettier --write \"./**/*.{js,json}\""
+    }
 }

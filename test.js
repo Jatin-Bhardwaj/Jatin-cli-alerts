@@ -1,6 +1,7 @@
-const alert = require('./index.js')
+const alert  = require('./index.js');
 
-alert({
-    type:`success`,
-    msg :`All done`
+alert.options({
+	type: `success`,
+	msg: `All done`
 });
+//console.log(func1(2));
