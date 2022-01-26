@@ -1,0 +1,7 @@
+{
+    "name":"jatin-cli-alerts",
+    "version":"0.0.1",
+    "description": "Cross platform CLI ALerts with colors and colored symbols for success, info, warning, error.Works on macOS, Linux, Windows",
+    "license": "MIT",
+
+}
